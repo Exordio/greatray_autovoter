@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
+import configparser
 import time
-import config
 import sys
 
 def vote_Mcrate(link):
@@ -39,14 +39,14 @@ def vote_Mcrate(link):
         vkAuth()
 
     try:
-        driver.find_element_by_xpath("/html/body/div/div[6]/form/table/tbody/tr/td[2]/input").send_keys(config.minecraft_login)
+        driver.find_element_by_xpath("/html/body/div/div[6]/form/table/tbody/tr/td[2]/input").send_keys(config["GREATRAY_MINECRAFT_DATA"]["login"])
         print("  ||| Find div[6] xpath |||")
         driver.find_element_by_xpath("/html/body/div/div[6]/form/table/tbody/tr/td[3]/span").click()
 
     except:
         print('  ||| Trying another xpath... |||')
         try:
-            driver.find_element_by_xpath("/html/body/div/div[7]/form/table/tbody/tr/td[2]/input").send_keys(config.minecraft_login)
+            driver.find_element_by_xpath("/html/body/div/div[7]/form/table/tbody/tr/td[2]/input").send_keys(config["GREATRAY_MINECRAFT_DATA"]["login"])
             print("Find div[7] xpath")
             driver.find_element_by_xpath("/html/body/div/div[7]/form/table/tbody/tr/td[3]/span").click()
         except:
@@ -83,7 +83,7 @@ def vote_Mctop(link):
     time.sleep(2)
 
     try:
-        driver.find_element_by_xpath('''/html/body/div[3]/div/div/div[2]/form/div/input''').send_keys(config.minecraft_login)
+        driver.find_element_by_xpath('''/html/body/div[3]/div/div/div[2]/form/div/input''').send_keys(config["GREATRAY_MINECRAFT_DATA"]["login"])
         driver.find_element_by_xpath('''/html/body/div[3]/div/div/div[2]/form/button''').click()
     except:
         print('  ||| Something wrong, or u are voted today |||')
@@ -119,7 +119,7 @@ def vote_Topcaraft(link):
         pass
 
     try:
-        driver.find_element_by_xpath('''/html/body/div[3]/div[2]/div/div[2]/form/div/input''').send_keys(config.minecraft_login)
+        driver.find_element_by_xpath('''/html/body/div[3]/div[2]/div/div[2]/form/div/input''').send_keys(config["GREATRAY_MINECRAFT_DATA"]["login"])
         driver.find_element_by_xpath('''/html/body/div[3]/div[2]/div/div[2]/form/div/button''').click()
     except:
         print('  ||| Error handling current xpath |||')
@@ -134,12 +134,13 @@ def vote_Topcaraft(link):
     time.sleep(2)
 
 def vkAuth():
-    driver.find_element_by_xpath("/html/body/div/div/div/div[2]/form/div/div/input[6]").send_keys(config.Vk_login)
-    driver.find_element_by_xpath("/html/body/div/div/div/div[2]/form/div/div/input[7]").send_keys(config.Vk_pass)
-    driver.find_element_by_xpath("/html/body/div/div/div/div[2]/form/div/div/button").click()
+    driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/input[6]''').send_keys(config["VKDATA"]["username"])
+    driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/input[7]''').send_keys(config["VKDATA"]["password"])
+    driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/button''').click()
 
 
-if __name__ == ('__main__'):
+
+def print_Logo():
     print(r'''
      _______  ______    _______  _______  _______   ______    _______  __   __ 
     |       ||    _ |  |       ||   _   ||       | |    _ |  |   _   ||  | |  |
@@ -154,20 +155,35 @@ if __name__ == ('__main__'):
                 \_/\_/\____/ (__) \__/  \__/  \__/ (__) (____)(__\_)''')
 
     print('\n  |||                Exord Greatray || autovoter v0.2.1 ||                 |||\n')
-    print('  |||                        Start in 5 sec                                |||\n')
+    print('  |||                        Start in 3 sec                                |||\n')
 
-    print('\n')
-    time.sleep(5)
 
+def configFile_init():
+    global config
+    config = configparser.ConfigParser()
+    config.read("CONFIGFILE.ini")
+
+def selenium_init():
+    global driver
     ua = dict(DesiredCapabilities.CHROME)
     options = webdriver.ChromeOptions()
+    # можно подключить куки файлы, отпадет надобность проводить каждый раз аутентификацию vkauth()...
     # options.add_argument("--user-data-dir=selenium")
     options.add_argument("--window-size=1920,1080")
-    #options.add_argument('--headless')
+    # options.add_argument('--headless') Баги в этом режиме, пока что выкл...
     options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-    chrome_driver_binary = "chromedriver.exe"
+    # chrome_driver_binary = "chromedriver.exe"
     driver = webdriver.Chrome(chrome_options=options)
 
+def selenium_Killinit():
+    driver.close()
+    driver.__exit__()
+
+if __name__ == ('__main__'):
+
+    print_Logo();time.sleep(3)
+    configFile_init()
+    selenium_init()
     vote_Mcrate("http://mcrate.su/project/5846")
     vote_Mctop("https://mctop.su/servers/4037")
     vote_Topcaraft("https://topcraft.ru/servers/7071")
@@ -175,7 +191,6 @@ if __name__ == ('__main__'):
     print('\n  ||| All jobs done exit on 5 sec |||')
     print(" OK ")
 
-    driver.close()
-    driver.__exit__()
+    selenium_Killinit()
 
     sys.exit()
