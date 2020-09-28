@@ -1,17 +1,17 @@
-![alt tag](https://i.imgur.com/CCM6RFS.png)
+п»ї![alt tag](https://i.imgur.com/CCM6RFS.png)
 
 
 Enter some userdata to config.py in build folder...
 
 ---
 
-Всё просто, вводите ваши данные в config.py
+Р’СЃС‘ РїСЂРѕСЃС‚Рѕ, РІРІРѕРґРёС‚Рµ РІР°С€Рё РґР°РЅРЅС‹Рµ РІ config.py
 
-Скрипт можно собрать через pyinstaller, предварительно активировав venv - venv\scripts\activate
+РЎРєСЂРёРїС‚ РјРѕР¶РЅРѕ СЃРѕР±СЂР°С‚СЊ С‡РµСЂРµР· pyinstaller, РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕ Р°РєС‚РёРІРёСЂРѕРІР°РІ venv - venv\scripts\activate
 
 pyinstaller Great_autovoter.py --onefile
 
-Готовая сборка файла будет находится в папке dist...
+Р“РѕС‚РѕРІР°СЏ СЃР±РѕСЂРєР° С„Р°Р№Р»Р° Р±СѓРґРµС‚ РЅР°С…РѕРґРёС‚СЃСЏ РІ РїР°РїРєРµ dist...
 
 28.09.2020
 
