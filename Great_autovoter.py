@@ -154,7 +154,7 @@ if __name__ == ('__main__'):
                 \_/\_/\____/ (__) \__/  \__/  \__/ (__) (____)(__\_)''')
 
     print('\n  |||                Exord Greatray || autovoter v0.2.1 ||                 |||\n')
-    print('  |||                        Start in 5 sec                              |||\n')
+    print('  |||                        Start in 5 sec                                |||\n')
 
     print('\n')
     time.sleep(5)
