@@ -1,4 +1,4 @@
-![alt tag](https://imgur.com/CCM6RFS "logo")​
+![alt tag](https://i.imgur.com/CCM6RFS.png)​
 
 
 Enter some userdata to config.py in build folder...
