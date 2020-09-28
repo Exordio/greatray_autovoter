@@ -5,7 +5,7 @@ Enter some userdata to config.py in build folder...
 
 ---
 
-Всё просто, вводите ваши данные в config.py
+Всё просто, вводите ваши данные в CONFIGFILE.ini запуск либо после сборки, либо через python...
 
 Скрипт можно собрать через pyinstaller, предварительно активировав venv - venv\scripts\activate
 
