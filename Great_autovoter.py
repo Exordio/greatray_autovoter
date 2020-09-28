@@ -8,7 +8,7 @@ import sys
 def vote_Mcrate(link):
     print(f"\n  ||| Launching MCRATE {link} autovote |||")
     driver.get(link)
-    time.sleep(2.5)
+    time.sleep(2)
     try:
         driver.find_element_by_xpath('''/html/body/div[1]/div[6]/table[1]/tbody/tr[1]/td[3]/div[1]/a''').click()
 
@@ -56,7 +56,7 @@ def vote_Mcrate(link):
 
     print("\n  ||| MCRATE IS DONE ||| \n")
 
-    time.sleep(1)
+    time.sleep(2)
 
 
 def vote_Mctop(link):
@@ -74,13 +74,10 @@ def vote_Mctop(link):
         time.sleep(2)
         driver.find_element_by_xpath('''/html/body/div[3]/div/div/div[2]/div/ul/li/a/i''').click()
 
-    try:
-        vkAuth()
-    except:
-        print('\n  ||| vkAuth is not complete. pass |||')
-        pass
 
-    time.sleep(2)
+    vkAuth()
+
+    time.sleep(3)
 
     try:
         driver.find_element_by_xpath('''/html/body/div[3]/div/div/div[2]/form/div/input''').send_keys(config["GREATRAY_MINECRAFT_DATA"]["login"])
@@ -92,9 +89,7 @@ def vote_Mctop(link):
 
     print("\n  ||| MSTOP IS DONE |||")
 
-
-
-    time.sleep(1)
+    time.sleep(2)
 
 def vote_Topcaraft(link):
     driver.get(link)
@@ -112,12 +107,9 @@ def vote_Topcaraft(link):
         print('  ||| Cant find /li/a/i element from xpath |||')
         pass
 
-    try:
-        vkAuth()
-    except:
-        print('\n  ||| vkAuth is not complete. pass |||')
-        pass
+    vkAuth()
 
+    time.sleep(2)
     try:
         driver.find_element_by_xpath('''/html/body/div[3]/div[2]/div/div[2]/form/div/input''').send_keys(config["GREATRAY_MINECRAFT_DATA"]["login"])
         driver.find_element_by_xpath('''/html/body/div[3]/div[2]/div/div[2]/form/div/button''').click()
@@ -128,17 +120,25 @@ def vote_Topcaraft(link):
 
     print("\n  ||| TOPCRAFT IS DONE |||")
 
-
-
-
-    time.sleep(2)
+    time.sleep(1.5)
 
 def vkAuth():
-    driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/input[6]''').send_keys(config["VKDATA"]["username"])
-    driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/input[7]''').send_keys(config["VKDATA"]["password"])
-    driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/button''').click()
-
-
+    try:
+        driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/input[6]''').send_keys(config["VKDATA"]["username"])
+        driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/input[7]''').send_keys(config["VKDATA"]["password"])
+        driver.find_element_by_xpath('''/html/body/div/div/div/div[2]/form/div/div/button''').click()
+        time.sleep(2)
+    except:
+        print('''\n  |||  VKauth is Not needed? ||| ''')
+        pass
+    #Разрешить доступ к странице
+    try:
+        driver.find_element_by_xpath('''/html/body/div/div/div/div[3]/div/div[1]/button[1]''').click()
+        #/ html / body / div / div / div / div[3] / div / div[1] / button[1]
+        time.sleep(2)
+    except:
+        print('\n  ||| Access to vk.com not needed, sciping |||')
+        time.sleep(1)
 
 def print_Logo():
     print(r'''
@@ -171,9 +171,14 @@ def selenium_init():
     # options.add_argument("--user-data-dir=selenium")
     options.add_argument("--window-size=1920,1080")
     # options.add_argument('--headless') Баги в этом режиме, пока что выкл...
-    options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
     # chrome_driver_binary = "chromedriver.exe"
-    driver = webdriver.Chrome(chrome_options=options)
+    try:
+        options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+        driver = webdriver.Chrome(chrome_options=options)
+    except:
+        print("Driver is not started... truing to edit path to chrome")
+        options.binary_location = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+        driver = webdriver.Chrome(chrome_options=options)
 
 def selenium_Killinit():
     driver.close()
@@ -188,9 +193,9 @@ if __name__ == ('__main__'):
     vote_Mctop("https://mctop.su/servers/4037")
     vote_Topcaraft("https://topcraft.ru/servers/7071")
 
-    print('\n  ||| All jobs done exit on 5 sec |||')
+    print('\n  ||| All jobs done exit on 3 sec |||')
+    time.sleep(3)
     print(" OK ")
 
     selenium_Killinit()
-
     sys.exit()
