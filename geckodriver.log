@@ -1,0 +1,268 @@
+1601606150755	geckodriver	INFO	Listening on 127.0.0.1:51552
+1601606209173	geckodriver	INFO	Listening on 127.0.0.1:51568
+1601606382394	geckodriver	INFO	Listening on 127.0.0.1:51624
+1601606498941	geckodriver	INFO	Listening on 127.0.0.1:51673
+1601606535236	geckodriver	INFO	Listening on 127.0.0.1:51688
+1601606595219	geckodriver	INFO	Listening on 127.0.0.1:51706
+1601606706136	geckodriver	INFO	Listening on 127.0.0.1:51877
+1601606843675	geckodriver	INFO	Listening on 127.0.0.1:51934
+1601606881882	geckodriver	INFO	Listening on 127.0.0.1:51968
+1601606901402	geckodriver	INFO	Listening on 127.0.0.1:51979
+1601606966159	geckodriver	INFO	Listening on 127.0.0.1:51997
+1601607085259	geckodriver	INFO	Listening on 127.0.0.1:52191
+1601607254180	geckodriver	INFO	Listening on 127.0.0.1:52316
+1601607275087	geckodriver	INFO	Listening on 127.0.0.1:52327
+1601607437429	geckodriver	INFO	Listening on 127.0.0.1:52437
+1601607440463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileZ0WkSy"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601607443591	Marionette	INFO	Listening on port 52445
+1601607443681	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601607460771	Marionette	INFO	Stopped listening on port 52445
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601607492395	geckodriver	INFO	Listening on 127.0.0.1:52496
+1601607495431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileILt0O5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601607498554	Marionette	INFO	Listening on port 52505
+1601607498644	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601607499980	Marionette	INFO	Stopped listening on port 52505
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601607513822	geckodriver	INFO	Listening on 127.0.0.1:52544
+1601607516849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileeiIJum"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601607519970	Marionette	INFO	Listening on port 52552
+1601607520066	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601607529205	Marionette	INFO	Stopped listening on port 52552
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601607563005	geckodriver	INFO	Listening on 127.0.0.1:52666
+1601607684717	geckodriver	INFO	Listening on 127.0.0.1:52730
+1601607732412	geckodriver	INFO	Listening on 127.0.0.1:52783
+1601607783910	geckodriver	INFO	Listening on 127.0.0.1:52800
+1601607786966	mozrunner::runner	INFO	Running command: "Q:\\Python projects\\god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileOK9v7G"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601607790061	Marionette	INFO	Listening on port 52808
+1601607790182	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1601607792935	Marionette	INFO	Stopped listening on port 52808
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601608091517	geckodriver	INFO	Listening on 127.0.0.1:52961
+1601608109504	geckodriver	INFO	Listening on 127.0.0.1:52973
+1601608165057	geckodriver	INFO	Listening on 127.0.0.1:52989
+1601608194973	geckodriver	INFO	Listening on 127.0.0.1:53008
+1601608315448	geckodriver	INFO	Listening on 127.0.0.1:53051
+1601608360046	geckodriver	INFO	Listening on 127.0.0.1:53064
+1601608384718	geckodriver	INFO	Listening on 127.0.0.1:53073
+1601608403429	geckodriver	INFO	Listening on 127.0.0.1:53084
+1601608419175	geckodriver	INFO	Listening on 127.0.0.1:53089
+1601608429870	geckodriver	INFO	Listening on 127.0.0.1:53094
+1601608432919	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileKlotkN"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601608436234	Marionette	INFO	Listening on port 53102
+1601608436255	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601608444545	Marionette	INFO	Stopped listening on port 53102
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601608684549	geckodriver	INFO	Listening on 127.0.0.1:53255
+1601608687582	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofilePjvGYn"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601608690792	Marionette	INFO	Listening on port 53263
+1601608690802	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601608763904	geckodriver	INFO	Listening on 127.0.0.1:53385
+1601608766950	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofilea3sOnq"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601608770146	Marionette	INFO	Listening on port 53394
+1601608770164	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601608794838	geckodriver	INFO	Listening on 127.0.0.1:53457
+1601608797877	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileVuI7GO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601608801025	Marionette	INFO	Listening on port 53465
+1601608801093	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+1601608834557	Marionette	INFO	Stopped listening on port 53465
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601608840559	geckodriver	INFO	Listening on 127.0.0.1:53674
+1601608843598	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileyHPjq9"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601608846998	Marionette	INFO	Listening on port 53683
+1601608847413	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+[GFX1-]: Updating unknown shared surface: 34359738622
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PWebRenderBridge::Msg_UpdateResources Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+1601608877148	Marionette	INFO	Stopped listening on port 53683
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601608896707	geckodriver	INFO	Listening on 127.0.0.1:53900
+1601608899749	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofile0keaLZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601608902972	Marionette	INFO	Listening on port 53908
+1601608903073	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+1601608938721	Marionette	INFO	Stopped listening on port 53908
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601608949745	geckodriver	INFO	Listening on 127.0.0.1:54118
+1601608952786	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofilepKlAOh"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601608955926	Marionette	INFO	Listening on port 54126
+1601608956006	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200930/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+1601609094310	geckodriver	INFO	Listening on 127.0.0.1:54358
+1601609097350	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofile4kt3wb"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601609100883	Marionette	INFO	Listening on port 54366
+1601609101228	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1601609113241	geckodriver	INFO	Listening on 127.0.0.1:54504
+1601609116279	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileDeK31R"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601609119483	Marionette	INFO	Listening on port 54514
+1601609119499	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+1601609260435	geckodriver	INFO	Listening on 127.0.0.1:54739
+1601609263474	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofileEN8qOP"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601609266367	Marionette	INFO	Listening on port 54748
+1601609266689	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200930/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+1601609321419	Marionette	INFO	Stopped listening on port 54748
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601609364058	geckodriver	INFO	Listening on 127.0.0.1:54970
+1601609367107	mozrunner::runner	INFO	Running command: "Q:/Python projects/god help me\\FirefoxPortable\\App\\Firefox64\\firefox.exe" "--marionette" "--window-size=1920,1080" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Exord\\AppData\\Local\\Temp\\rust_mozprofile1xMH5o"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601609369671	Marionette	INFO	Listening on port 54978
+1601609369820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 407: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 407: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: http://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 407: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 407: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 2135 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 2135 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 6334 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 6334 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 407: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js, line 407: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 2433 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 2433 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://usocial.pro/usocial/usocial.share.js?js=7.1.5, line 1: TypeError: E[i] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 2452 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7s9jpwiuU7qHsmLdS4JQTEZg9pPlRoS5hI2AHG-C1Mk.js line 1 > eval line 2452 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1601610909275	Marionette	INFO	Stopped listening on port 54978
