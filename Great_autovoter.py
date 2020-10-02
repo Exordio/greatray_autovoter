@@ -88,7 +88,7 @@ def vote_Mctop(link):
     else:
         print('  ||| Vote done |||\n')
 
-    print("\n  ||| MCTOP IS DONE |||")
+    print("\n  ||| MSTOP IS DONE |||")
 
     time.sleep(2)
 
@@ -157,8 +157,8 @@ def print_Logo():
                 /    \) \/ (  )( (  O )\ \/ /(  O ) )(   ) _)  )   /
                 \_/\_/\____/ (__) \__/  \__/  \__/ (__) (____)(__\_)''')
 
-    print('\n  |||       Exord Greatray || autovoter v0.3 firefox-headless ||        |||\n')
-    print('  |||                           Start in 3 sec                              |||\n')
+    print('\n  |||                Exord Greatray || autovoter v0.2.1 ||                 |||\n')
+    print('  |||                        Start in 3 sec                                |||\n')
 
 
 def configFile_init():

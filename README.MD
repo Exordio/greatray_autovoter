@@ -5,7 +5,7 @@ Enter some userdata to config.py in build folder...
 
 ---
 
-Тест ветка FIREFOX. Для работы необходимо добавить папку firefox portable, она доступна в загрузках.
+Тест ветка, Firefox
 
 Всё просто, вводите ваши данные в CONFIGFILE.ini запуск либо после сборки, либо через python...
 
