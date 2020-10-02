@@ -23,7 +23,7 @@ def vote_Mcrate(link):
 
     try:
         driver.find_element_by_xpath('''/html/body/div/div[6]/div/a''').click()
-        print(" ||| Find div[6] xpath |||")
+        print("  ||| Find div[6] xpath |||")
     except:
         print('  ||| Vk login is not needed? control check another xpath |||\n')
 
@@ -88,7 +88,7 @@ def vote_Mctop(link):
     else:
         print('  ||| Vote done |||\n')
 
-    print("\n  ||| MSTOP IS DONE |||")
+    print("\n  ||| MCTOP IS DONE |||")
 
     time.sleep(2)
 
@@ -195,7 +195,7 @@ if __name__ == ('__main__'):
     vote_Topcaraft("https://topcraft.ru/servers/7071")
 
     print('\n  ||| All jobs done exit on 3 sec |||')
-    time.sleep(1500)
+    time.sleep(3)
     print(" OK ")
 
     selenium_Killinit()
